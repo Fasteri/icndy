@@ -20,8 +20,8 @@ $(document).ready(function(){
                 $("#body").removeClass('nav-fixed');
             }
         
-        console.log(nav);
-        console.log(scrolled);
+        // console.log(nav);
+        // console.log(scrolled);
 
 
     })

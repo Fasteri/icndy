@@ -141,7 +141,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 .galary {
 	background-color: #3d3d3d;
 	&__grid{	
-	padding: 20px 0 ;
+	padding: 10px 0 ;
 	display: grid;
 	grid-template-columns: repeat(3, minmax(auto, 1fr ));
 	grid-template-rows: auto auto auto  ;
@@ -386,6 +386,21 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 	}
 	.footer__grid{
 		padding: 0 5px;
+	}
+
+	.galary__grid {
+		padding: 5px;
+		grid-template-columns: repeat(2, minmax(auto, 1fr));
+		grid-template-rows: auto auto auto;
+		& .carhartt{
+			grid-area: 4/2/5/2 ;
+		}
+		 .adidas{
+			grid-area: 5/2/6/2 ;
+		}
+		.nike{
+			grid-area: 4/1/6/1 ;
+		}
 	}
  }
 
