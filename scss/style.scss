@@ -65,7 +65,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 	margin: 0 auto;
 }
 .header {
-	background: url(/img/bg__main.jpg) center center/cover no-repeat;
+	background: url(../img/bg__main.jpg) center center/cover no-repeat;
 	padding-top: 41px;
 	min-height: 100vh;
 
@@ -181,7 +181,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 
 .insta {
 	min-height: 50vw;
-	background:url(/img/instagram_bg.jpg) center center/cover no-repeat;
+	background:url(../img/instagram_bg.jpg) center center/cover no-repeat;
 	& p{
 		padding: 25% 15%;
 		font-family: 'Proxima Nova';
